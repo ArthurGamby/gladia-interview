@@ -1,83 +1,62 @@
 # Walkthrough: "Gladia thinks I only speak English"
 
-The demo written as a 2-minute YouTube video for backend and AI engineers.
-The [50-second cut](https://youtu.be/ms9HPNIL2pA) is the cold open and the reveal.
-Every output shown comes from [`responses/`](responses/).
-
-**Promise:** in two minutes, you know the one field that keeps a bilingual call
-fully translated, and how to test it on your own audio.
+The [50-second video](https://youtu.be/ms9HPNIL2pA), shot by shot. One bilingual
+clip, sent twice to Gladia's pre-recorded API. The two requests differ by one
+field: `code_switching`.
 
 ---
 
-### 0:00 – 0:25 · Cold open
+### 0:00 – 0:22 · The example
 
-**On screen:** me, facing the camera, in a meeting. I turn to my colleague Paul
-and speak French, then turn back and speak English. That is the 19-second clip,
-[`audio/chat-v3.wav`](audio/chat-v3.wav).
+**On screen:** me on camera, in a meeting. A badge at the bottom shows the
+language I am speaking: English, then French, then English again.
 
 > "So I'm speaking in English, I am in a meeting and suddenly one of my
-> colleagues from France, Paul, is asking me something really important…
-> *Ah, merci Paul pour les croissants. Par contre, pour le rapport, là je suis en
-> meeting, on voit ça juste après, ok ? Merci.* I am switching back to English,
-> but what happens to the transcript?"
+> colleagues from France, Paul, is asking me something really important that I
+> need to answer. *Ah, merci Paul pour les croissants. Par contre, pour le
+> rapport, là je suis en meeting, on voit ça juste après, ok ? Merci.* I am
+> switching back to English, but what happens to the transcript, to the
+> translation, if you don't enable code switching? Let's take a look."
+
+As I ask the question, a request card builds up on the right:
+`POST /v2/pre-recorded` with the translation on and `"languages": ["en", "fr"]`,
+then `"code_switching": false`, then `"code_switching": true`.
 
 ---
 
-### 0:25 – 0:50 · The API in three calls
+### 0:22 – 0:34 · The replay
 
-**On screen:** terminal.
+**On screen:** the same passage plays again in a small window. Next to it, two
+boxes write Gladia's English translation word by word, one box per request.
 
-```bash
-uv run compare.py audio/chat-v3.wav
-```
-
-**Voice-over:**
-> "Gladia's pre-recorded API is three calls: upload the file, start a job, poll
-> until it's done. I start two jobs on the same upload. Both ask for an English
-> translation. The only difference: the second sends `language_config` with
-> English and French, and `code_switching: true`."
-
-**Callout:** the job creation answers `201`, not `200`.
+- **Left, `"code_switching": false`:** Gladia detects English for the whole
+  file, so my French stays in French.
+- **Right, `"code_switching": true`:** Gladia detects English, then French as
+  soon as I switch. "Translating French → English" appears under the box, and
+  the French passage comes back in English.
 
 ---
 
-### 0:50 – 1:20 · The reveal
+### 0:34 – 0:44 · The comment
 
-**On screen:** the two outputs side by side, the French passage highlighted
-(this is the animation at the top of the README).
+**On screen:** I come back in the window. Each box lights up as I talk about it:
+"English only" and "Not translated" on the left, "English + French" and
+"Translated to English" on the right.
 
-```text
-=== default ===                                  === code-switching ===
-languages: en                                    languages: en, fr
-00:09.7  en  merci Paul pour les croissants.     00:09.7  fr  Merci Paul pour les croissants,
-
-en version: ... merci Paul pour les croissants.  en version: ... Thank you Paul for the croissants,
-```
-
-**Voice-over:**
-> "Without code switching, Gladia picks one language for the whole file:
-> English. My French is still written down, but labelled `en`, so the
-> translation to English leaves it as it is. No error, `status: done`.
+> "As you can see, without code switching, Gladia thinks I only speak English.
 > With code switching on, it catches both languages, and everything comes back
 > in English."
 
 ---
 
-### 1:20 – 1:45 · What to check before you ship
+### 0:44 – 0:50 · End card
 
-**On screen:** the "Before you ship it" list from the README.
-
-**Voice-over:**
-> "Three things. Listing the languages is not enough: you need
-> `code_switching: true`. Use the `enhanced` translation model. And keep the
-> default model, Solaria-1: the newer Solaria-3 does not do code switching."
+**On screen:** "Your users switch languages. Your transcript should too. One
+field in your API request." Then the `"code_switching": true` field and a
+**Try it in the docs →** button, pointing to docs.gladia.io.
 
 ---
 
-### 1:45 – 2:00 · Wrap-up
-
-**On screen:** the README, on "Try it on your own audio".
-
-> "To test it on one of your own calls, install the Gladia CLI and run one
-> command. The README has the same settings for your code, in Python and
-> JavaScript. The free credits of a new account cover it."
+The [README](README.md) goes further: [the three API calls](README.md#the-three-api-calls),
+[what to check before you ship](README.md#before-you-ship-it) and how to
+[try it on your own audio](README.md#try-it-on-your-own-audio).
