@@ -43,7 +43,7 @@ You need [uv](https://docs.astral.sh/uv/) and a Gladia API key from
 less than one cent.
 
 ```bash
-git clone <this repo> && cd code-switching-demo
+git clone https://github.com/ArthurGamby/gladia-interview.git && cd gladia-interview
 cp .env.example .env        # paste your key
 uv run --env-file .env compare.py audio/chat-v3.wav --translation-model enhanced
 ```
@@ -200,3 +200,4 @@ With `code_switching`:
 | [`responses/`](responses/) | Raw requests and responses of both jobs |
 | [`WALKTHROUGH.md`](WALKTHROUGH.md) | The demo, written as a video script |
 | [`FEEDBACK.md`](FEEDBACK.md) | For the Gladia team: what code-switching still gets wrong, doc gaps, API ideas |
+| [`devrel-plan/PLAN.md`](devrel-plan/PLAN.md) | Part 2 of the case study: my first 90 days as Gladia's first DevRel |

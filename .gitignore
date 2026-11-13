@@ -9,6 +9,7 @@
 !/assets/
 !/audio/
 !/responses/
+!/devrel-plan/
 
 /audio/*
 !/audio/chat-v3.wav
