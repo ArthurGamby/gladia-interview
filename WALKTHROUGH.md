@@ -29,7 +29,7 @@ and speak French, then turn back and speak English. That is the 23-second clip,
 **On screen:** terminal.
 
 ```bash
-uv run --env-file .env compare.py audio/chat-v3.wav --translation-model enhanced
+uv run compare.py audio/chat-v3.wav
 ```
 
 **Voice-over:**
@@ -81,4 +81,5 @@ en version: ... merci Paul pour les croissants.  en version: ... Thank you Paul 
 **On screen:** the repo.
 
 > "The script, the audio and the raw responses are in the repo. Run it on one of
-> your own calls: it takes two minutes and costs less than a cent."
+> your own calls: it takes two minutes, and the free credits of a new account
+> cover it."

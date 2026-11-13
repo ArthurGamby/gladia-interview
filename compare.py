@@ -13,8 +13,9 @@ them is `language_config`. The report also flags words stretched over several
 seconds: that is how dropped speech shows up, since the API returns no error.
 
 Usage:
-    uv run --env-file .env compare.py audio/call-take2.aifc
-    uv run --env-file .env compare.py my-call.m4a --languages en es
+    export GLADIA_API_KEY="your-api-key"
+    uv run compare.py audio/chat-v3.wav
+    uv run compare.py my-call.m4a --languages en es
 """
 
 from __future__ import annotations
@@ -112,7 +113,7 @@ def wait_for(client: httpx.Client, job_id: str) -> dict:
 
 
 def build_configs(
-    languages: list[str], translate_to: str | None, translation_model: str = "base"
+    languages: list[str], translate_to: str | None, translation_model: str = "enhanced"
 ) -> dict[str, dict]:
     """The two request bodies to compare (without `audio_url`).
 
@@ -208,8 +209,8 @@ def parse_args() -> argparse.Namespace:
                         help="languages you expect in the audio (default: en fr)")
     parser.add_argument("--translate-to", default="en", metavar="CODE",
                         help="target language of the translation (default: en)")
-    parser.add_argument("--translation-model", default="base", choices=["base", "enhanced"],
-                        help="translation model (default: base)")
+    parser.add_argument("--translation-model", default="enhanced", choices=["base", "enhanced"],
+                        help="translation model (default: enhanced)")
     parser.add_argument("--no-translation", action="store_true", help="skip the translation add-on")
     parser.add_argument("--subtitles", action="store_true",
                         help="also save .srt subtitles (original and translated) in --out")
@@ -222,8 +223,8 @@ def main() -> int:
     args = parse_args()
     api_key = os.environ.get("GLADIA_API_KEY")
     if not api_key:
-        print("GLADIA_API_KEY is not set. Copy .env.example to .env, add your key, "
-              "then run with: uv run --env-file .env compare.py <audio>", file=sys.stderr)
+        print("GLADIA_API_KEY is not set. Get a free key at https://app.gladia.io, then run:\n"
+              '  export GLADIA_API_KEY="your-api-key"', file=sys.stderr)
         return 2
     if not args.audio.is_file():
         print(f"No such file: {args.audio}", file=sys.stderr)

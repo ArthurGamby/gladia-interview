@@ -1,7 +1,6 @@
 # Only what the demo needs is shared; everything else stays local.
 /*
 !/.gitignore
-!/.env.example
 !/README.md
 !/WALKTHROUGH.md
 !/FEEDBACK.md

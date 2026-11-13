@@ -1,7 +1,7 @@
 # Feedback for the Gladia team
 
 What I ran into while building the [code-switching demo](README.md): pre-recorded
-API, Solaria-1, three recordings of my own voice. Docs checked on 2026-11-12.
+API, Solaria-1, three recordings of my own voice. Docs checked on 2026-11-13.
 
 ## In short
 
@@ -72,38 +72,10 @@ English is back.
    the boundary losses above.
 3. **200 vs 201.** The
    [retry guide](https://docs.gladia.io/chapters/pre-recorded-stt/transcription-process)
-   says `POST /v2/pre-recorded` returns 200; the API and the OpenAPI reference
-   return 201. A client that tests for 200 resubmits billed jobs.
-4. **Timeouts are called safe to retry.** The same guide treats a POST timeout as
-   "not accepted". Without deduplication, a timeout after the server accepted the
-   job creates a second billed job.
-5. **No language per word in the pre-recorded response.** The code-switching page
-   says the language is returned per utterance and per word; words only carry
-   `word`, `start`, `end`, `confidence`.
-6. **Live-only fields on shared pages.** The code-switching and language
-   detection pages show `encoding`, `sample_rate`, `bit_depth`, which only exist
-   in the live API.
-7. **The upload curl example sets the multipart `Content-Type` by hand.** Copied
-   into most HTTP clients, that drops the boundary and the API answers 400.
-8. **`429` is missing from the API reference** of the POST endpoints, with no
-   documented body or `Retry-After` header.
-9. **Small inconsistencies.** `.aifc` (what QuickTime saves at maximum quality)
-   works but is not in the supported formats; the `model` enum lists an
-   undocumented `solaria-fusion`; the translation model enum is `base`,
-   `enhanced` in the guide and `base`, `batch`, `enhanced` in the schema.
-
-## API suggestions
-
-Ordered by how much they would have helped here:
-
-1. **Flag dropped speech**: a per-utterance or per-file signal when voiced audio
-   produced no words, or a speech coverage ratio in `metadata`.
-2. **Expose `language_confidence`** (and the runner-up language) per utterance.
-3. **Accept an `Idempotency-Key` header on `POST /v2/pre-recorded`.** It is the
-   standard answer to "was my job created?", and it would make the retry guide
-   simple.
-4. **Mark utterances that were not really translated**, for example with a
-   `source_language` per translated utterance, so a client can see that an
-   utterance labelled `en` was passed through as is.
-5. **Add a minimum duration before switching language** to `language_config`, so a
-   two-word accented phrase cannot flip a whole passage.
+   says `POST /v2/pre-recorded` returns 200; the API and the
+   [API reference](https://docs.gladia.io/api-reference/v2/pre-recorded/init)
+   return 201. A client that checks for 200 takes the new job for a failure and
+   sends it again, which creates a second billed job.
+4. **`.aifc` is missing from the
+   [supported formats](https://docs.gladia.io/chapters/limits-and-specifications/supported-formats).**
+   It is what QuickTime saves at maximum quality, and the API accepts it.
