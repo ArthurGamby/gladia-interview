@@ -34,7 +34,7 @@ Same clip, same request (with an English translation), with and without
 | Languages found in the file | `en` | `en`, `fr` |
 | Label of "Merci Paul pour les croissants" | `en` | `fr` |
 | The same line in the English translation | *merci Paul pour les croissants.* | *Thank you Paul for the croissants,* |
-| Processing time for 23.3 s of audio (one run) | 3.5 s | 2.7 s |
+| Processing time for 18.8 s of audio (one run) | 4.0 s | 3.8 s |
 
 <details>
 <summary><b>Response without <code>code_switching</code></b></summary>
@@ -44,13 +44,13 @@ Per-word timings removed, times rounded. Full file:
 
 ```json
 {
-  "id": "24117033-619d-4830-a99b-aec3ce763196",
+  "id": "879cb678-4d59-449d-b58e-f636a34b4fc2",
   "status": "done",
   "result": {
     "metadata": {
-      "audio_duration": 23.328,
-      "transcription_time": 3.476,
-      "billing_time": 23.328
+      "audio_duration": 18.752,
+      "transcription_time": 4,
+      "billing_time": 18.752
     },
     "transcription": {
       "languages": ["en"],
@@ -60,63 +60,63 @@ Per-word timings removed, times rounded. Full file:
           "language": "en",
           "start": 0.02,
           "end": 1.06,
-          "confidence": 0.75
+          "confidence": 0.77
         },
         {
           "text": "I am in a meeting and suddenly one of my friends,",
           "language": "en",
           "start": 1.18,
           "end": 3.54,
-          "confidence": 0.62
+          "confidence": 0.64
         },
         {
           "text": "one of my colleagues from France,",
           "language": "en",
           "start": 3.66,
-          "end": 5.27,
+          "end": 5.26,
           "confidence": 0.86
         },
         {
           "text": "Paul,",
           "language": "en",
-          "start": 5.35,
-          "end": 5.57,
-          "confidence": 0.98
+          "start": 5.34,
+          "end": 5.56,
+          "confidence": 0.96
         },
         {
           "text": "is asking me something really important that I need to answer.",
           "language": "en",
-          "start": 5.75,
-          "end": 8.25,
-          "confidence": 0.64
+          "start": 5.74,
+          "end": 8.24,
+          "confidence": 0.61
         },
         {
           "text": "Ah,",
           "language": "en",
-          "start": 9.43,
-          "end": 9.55,
-          "confidence": 0.8
+          "start": 9.42,
+          "end": 9.54,
+          "confidence": 0.77
         },
         {
           "text": "merci Paul pour les croissants.",
           "language": "en",
-          "start": 9.73,
+          "start": 9.72,
           "end": 10.87,
-          "confidence": 0.92
+          "confidence": 0.94
         },
         {
           "text": "Par contre,",
           "language": "en",
           "start": 10.91,
           "end": 11.27,
-          "confidence": 0.81
+          "confidence": 0.82
         },
         {
           "text": "pour le rapport,",
           "language": "en",
           "start": 11.31,
           "end": 12.07,
-          "confidence": 0.94
+          "confidence": 0.93
         },
         {
           "text": "là je suis en meeting,",
@@ -130,42 +130,35 @@ Per-word timings removed, times rounded. Full file:
           "language": "en",
           "start": 13.29,
           "end": 14.17,
-          "confidence": 0.9
+          "confidence": 0.92
         },
         {
           "text": "ok?",
           "language": "en",
           "start": 14.29,
           "end": 14.41,
-          "confidence": 0.89
+          "confidence": 0.71
         },
         {
           "text": "Merci.",
           "language": "en",
           "start": 14.93,
           "end": 15.15,
-          "confidence": 0.69
+          "confidence": 0.59
         },
         {
-          "text": "I am switching back to English but what happens to the transcript,",
+          "text": "I am switching back to English,",
           "language": "en",
           "start": 15.51,
-          "end": 18.14,
-          "confidence": 0.7
+          "end": 16.69,
+          "confidence": 0.67
         },
         {
-          "text": "to the translation if you don't enable code switching?",
+          "text": "but what happened to the transcript?",
           "language": "en",
-          "start": 18.26,
-          "end": 20.96,
-          "confidence": 0.74
-        },
-        {
-          "text": "Let's take a look.",
-          "language": "en",
-          "start": 22.05,
-          "end": 22.66,
-          "confidence": 0.49
+          "start": 16.75,
+          "end": 18.13,
+          "confidence": 0.59
         }
       ]
     },
@@ -190,30 +183,30 @@ Per-word timings removed, times rounded. Full file:
               "text": "one of my colleagues from France,",
               "language": "en",
               "start": 3.66,
-              "end": 5.27
+              "end": 5.26
             },
             {
               "text": "Paul,",
               "language": "en",
-              "start": 5.35,
-              "end": 5.57
+              "start": 5.34,
+              "end": 5.56
             },
             {
               "text": "is asking me something really important that I need to answer.",
               "language": "en",
-              "start": 5.75,
-              "end": 8.25
+              "start": 5.74,
+              "end": 8.24
             },
             {
               "text": "Ah,",
               "language": "en",
-              "start": 9.43,
-              "end": 9.55
+              "start": 9.42,
+              "end": 9.54
             },
             {
               "text": "merci Paul pour les croissants.",
               "language": "en",
-              "start": 9.73,
+              "start": 9.72,
               "end": 10.87
             },
             {
@@ -253,22 +246,16 @@ Per-word timings removed, times rounded. Full file:
               "end": 15.15
             },
             {
-              "text": "I am switching back to English but what happens to the transcript,",
+              "text": "I am switching back to English,",
               "language": "en",
               "start": 15.51,
-              "end": 18.14
+              "end": 16.69
             },
             {
-              "text": "to the translation if you don't enable code switching?",
+              "text": "but what happened to the transcript?",
               "language": "en",
-              "start": 18.26,
-              "end": 20.96
-            },
-            {
-              "text": "Let's take a look.",
-              "language": "en",
-              "start": 22.05,
-              "end": 22.66
+              "start": 16.75,
+              "end": 18.13
             }
           ]
         }
@@ -288,13 +275,13 @@ Per-word timings removed, times rounded. Full file:
 
 ```json
 {
-  "id": "838caaac-0b96-4980-9bf2-3b505ee77c6b",
+  "id": "c77d6ddb-c931-4232-a8bc-4fbda59e3eb3",
   "status": "done",
   "result": {
     "metadata": {
-      "audio_duration": 23.328,
-      "transcription_time": 2.671,
-      "billing_time": 23.328
+      "audio_duration": 18.752,
+      "transcription_time": 3.799,
+      "billing_time": 18.752
     },
     "transcription": {
       "languages": ["en", "fr"],
@@ -307,7 +294,7 @@ Per-word timings removed, times rounded. Full file:
           "confidence": 0.6
         },
         {
-          "text": "I am in a meeting and suddenly...",
+          "text": "I am in a meeting and suddenly",
           "language": "en",
           "start": 1.19,
           "end": 2.62,
@@ -395,21 +382,7 @@ Per-word timings removed, times rounded. Full file:
           "language": "en",
           "start": 15.49,
           "end": 18.15,
-          "confidence": 0.58
-        },
-        {
-          "text": "to the translation if you don't enable code switching.",
-          "language": "fr",
-          "start": 18.27,
-          "end": 20.95,
-          "confidence": 0.68
-        },
-        {
-          "text": "Let's take a look.",
-          "language": "en",
-          "start": 22.03,
-          "end": 22.64,
-          "confidence": 0.35
+          "confidence": 0.59
         }
       ]
     },
@@ -425,7 +398,7 @@ Per-word timings removed, times rounded. Full file:
               "end": 1.07
             },
             {
-              "text": "I am in a meeting and suddenly...",
+              "text": "I am in a meeting and suddenly",
               "language": "en",
               "start": 1.19,
               "end": 2.62
@@ -467,7 +440,7 @@ Per-word timings removed, times rounded. Full file:
               "end": 12.08
             },
             {
-              "text": "there,",
+              "text": "now,",
               "language": "en",
               "start": 12.2,
               "end": 12.32
@@ -479,7 +452,7 @@ Per-word timings removed, times rounded. Full file:
               "end": 13.12
             },
             {
-              "text": "We will look at that shortly,",
+              "text": "We will look at that right after,",
               "language": "en",
               "start": 13.3,
               "end": 14.19
@@ -501,18 +474,6 @@ Per-word timings removed, times rounded. Full file:
               "language": "en",
               "start": 15.49,
               "end": 18.15
-            },
-            {
-              "text": "to the translation if you do not enable code switching.",
-              "language": "en",
-              "start": 18.27,
-              "end": 20.95
-            },
-            {
-              "text": "Let's take a look.",
-              "language": "en",
-              "start": 22.03,
-              "end": 22.64
             }
           ]
         }
@@ -524,79 +485,154 @@ Per-word timings removed, times rounded. Full file:
 
 </details>
 
-## Run it (2 minutes)
+## Try it on your own audio
 
-You need two things, both free:
-
-- **A Gladia API key.** Sign up at [app.gladia.io](https://app.gladia.io): new
-  accounts get €50 of free credits, about 185 hours of transcription. This test
-  uses less than a minute.
-- **[uv](https://docs.astral.sh/uv/getting-started/installation/)**, a fast tool
-  that runs Python scripts. `uv run` installs what the script needs (here,
-  `httpx`) in a separate environment, so there is nothing else to set up.
-
-1. Clone the repo:
-
-   ```bash
-   git clone https://github.com/ArthurGamby/gladia-interview.git
-   cd gladia-interview
-   ```
-
-2. Add your key:
-
-   ```bash
-   export GLADIA_API_KEY="your-api-key"
-   ```
-
-3. Run the test:
-
-   ```bash
-   uv run compare.py audio/chat-v3.wav
-   ```
-
-The script uploads the file once, starts both jobs, then prints each utterance
-with its language, and the English version. Here is the part that changes.
-
-**Without `code_switching`**, the French line is labelled `en` and stays in French:
-
-```text
-languages: en | audio 23.3s | transcribed in 3.5s | billed 23.3s
-00:09.7  en  merci Paul pour les croissants.
-00:10.9  en  Par contre,
-...
-en version: ... Ah, merci Paul pour les croissants. Par contre, pour le rapport,
-là je suis en meeting, on voit ça juste après, ok? Merci. I am switching back...
-```
-
-**With `code_switching`**, it is labelled `fr` and translated:
-
-```text
-languages: en, fr | audio 23.3s | transcribed in 2.7s | billed 23.3s
-00:09.7  fr  Merci Paul pour les croissants,
-00:10.9  fr  par contre...
-...
-en version: ... Thank you Paul for the croissants, on the other hand... Regarding
-the report, there, I am in a meeting. We will look at that shortly, OK? Thank you.
-```
-
-### On your own file
+You need a Gladia API key. Sign up at [app.gladia.io](https://app.gladia.io): new
+accounts get €50 of free credits, about 185 hours of transcription. Then set the
+key in your terminal:
 
 ```bash
-uv run compare.py my-call.m4a --languages en es
+export GLADIA_API_KEY="your-api-key"
 ```
 
-| Option | What it does |
-| --- | --- |
-| `--languages en es` | Languages spoken in the file (default: `en fr`) |
-| `--translate-to fr` | Language of the translation (default: `en`) |
-| `--translation-model base` | Translation model (default: `enhanced`) |
-| `--no-translation` | Transcription only |
-| `--subtitles` | Also save `.srt` subtitles |
-| `--out my-folder` | Where the requests and responses are saved (default: `responses/`) |
+### From your terminal, with the Gladia CLI
+
+Install the [CLI](https://docs.gladia.io/chapters/how-to-use-gladia/cli)
+(macOS and Linux; the Windows command is in the docs):
+
+```bash
+curl -fsSL https://github.com/gladiaio/gladia-cli/releases/latest/download/install.sh | sh
+```
+
+Then transcribe your file with code switching on:
+
+```bash
+gladia transcribe my-call.wav --code-switching --language en,fr -o json
+```
+
+Each utterance comes back with its own language. Two of them, from the clip
+above:
+
+```json
+[
+  {
+    "time_begin": "4.696000",
+    "time_end": "8.235000",
+    "language": "en",
+    "speaker": "0",
+    "transcription": "from France Paul is asking me something really important that I need to answer"
+  },
+  {
+    "time_begin": "9.724000",
+    "time_end": "10.853000",
+    "language": "fr",
+    "speaker": "0",
+    "transcription": "Merci Paul pour les croissants,"
+  }
+]
+```
+
+### In your code, with the SDK
+
+Use the official [SDK](https://docs.gladia.io/chapters/how-to-use-gladia/sdk).
+It takes the same settings, plus the English translation:
+
+```bash
+pip install gladiaio-sdk
+```
+
+```python
+from gladiaio_sdk import GladiaClient
+
+gladia = GladiaClient().prerecorded()
+job = gladia.transcribe(
+    "my-call.wav",
+    {
+        "language_config": {
+            "languages": ["en", "fr"],
+            "code_switching": True,
+        },
+        "translation": True,
+        "translation_config": {
+            "target_languages": ["en"],
+            "model": "enhanced",
+        },
+    },
+)
+
+for utterance in job.result.transcription.utterances:
+    print(utterance.language, utterance.text)
+
+print(job.result.translation.results[0].full_transcript)
+```
+
+The client reads your key from `GLADIA_API_KEY`, uploads the file, starts the
+job and waits for the result. On the clip above, it prints:
+
+```text
+en So I'm speaking in English,
+en I am in a meeting and suddenly...
+[...]
+fr Merci Paul pour les croissants,
+fr par contre...
+[...]
+So I'm speaking in English, [...] Thank you Paul for the croissants, on the other hand... [...]
+```
+
+<details>
+<summary><b>The same in JavaScript</b></summary>
+
+```bash
+npm install @gladiaio/sdk
+```
+
+```javascript
+import { GladiaClient } from "@gladiaio/sdk";
+
+const gladia = new GladiaClient().preRecorded();
+const job = await gladia.transcribe("my-call.wav", {
+  language_config: {
+    languages: ["en", "fr"],
+    code_switching: true,
+  },
+  translation: true,
+  translation_config: {
+    target_languages: ["en"],
+    model: "enhanced",
+  },
+});
+
+for (const utterance of job.result.transcription.utterances) {
+  console.log(utterance.language, utterance.text);
+}
+
+console.log(job.result.translation.results[0].full_transcript);
+```
+
+Save it as `transcribe.mjs`, then run `node transcribe.mjs`.
+
+</details>
+
+> [!TIP]
+> **Or let your coding agent build it.** Gladia publishes official [skills](https://github.com/gladiaio/skills) that teach coding agents its SDK. Add them, then paste this prompt into your agent. With Claude Code, it built a side-by-side page of both results in about two minutes.
+>
+> ```bash
+> npx skills add gladiaio/skills
+> ```
+>
+> ```text
+> My Gladia API key is in GLADIA_API_KEY. Transcribe my-call.wav twice:
+> once with default settings, once with code switching for English and
+> French. Ask for an English translation both times. Then build
+> compare.html: both results side by side, one line per utterance with
+> its time and language, one color per language, and the English
+> translation underneath. Run it and open the page.
+> ```
 
 ## The three API calls
 
-`compare.py` makes them with `httpx`. Here they are with `curl`.
+The SDK makes these calls for you. Here they are with `curl`, if you call the
+API directly.
 
 <details>
 <summary><b>1. Upload the file once</b>: <code>POST /v2/upload</code></summary>
@@ -609,9 +645,9 @@ curl -X POST https://api.gladia.io/v2/upload \
 
 ```json
 {
-  "audio_url": "https://api.gladia.io/file/ab89dd88-a15b-43fa-a370-2b6f2484cb6e",
+  "audio_url": "https://api.gladia.io/file/ed2ec1a5-090c-4104-a4c2-95f207438c65",
   "audio_metadata": {
-    "audio_duration": 23.328
+    "audio_duration": 18.752
   }
 }
 ```
@@ -629,7 +665,7 @@ curl -X POST https://api.gladia.io/v2/pre-recorded \
   -H "x-gladia-key: $GLADIA_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
-    "audio_url": "https://api.gladia.io/file/ab89dd88-a15b-43fa-a370-2b6f2484cb6e",
+    "audio_url": "https://api.gladia.io/file/ed2ec1a5-090c-4104-a4c2-95f207438c65",
     "language_config": {
       "languages": ["en", "fr"],
       "code_switching": true
@@ -644,8 +680,8 @@ curl -X POST https://api.gladia.io/v2/pre-recorded \
 
 ```json
 {
-  "id": "838caaac-0b96-4980-9bf2-3b505ee77c6b",
-  "result_url": "https://api.gladia.io/v2/pre-recorded/838caaac-0b96-4980-9bf2-3b505ee77c6b"
+  "id": "c77d6ddb-c931-4232-a8bc-4fbda59e3eb3",
+  "result_url": "https://api.gladia.io/v2/pre-recorded/c77d6ddb-c931-4232-a8bc-4fbda59e3eb3"
 }
 ```
 
@@ -658,7 +694,7 @@ bodies are saved in [`responses/`](responses/).
 <summary><b>3. Poll until <code>status</code> is <code>done</code></b>: <code>GET /v2/pre-recorded/:id</code></summary>
 
 ```bash
-curl https://api.gladia.io/v2/pre-recorded/838caaac-0b96-4980-9bf2-3b505ee77c6b \
+curl https://api.gladia.io/v2/pre-recorded/c77d6ddb-c931-4232-a8bc-4fbda59e3eb3 \
   -H "x-gladia-key: $GLADIA_API_KEY"
 ```
 
@@ -670,31 +706,36 @@ responses are under [Before / after](#before--after).
 
 ## Before you ship it
 
-- **Pick the `enhanced` translation model** (the script's default). It keeps
-  each translated sentence with its own utterance. For natural wording, add
-  `"informal": true` and a short `context` (the video does).
-- **A new job answers `201 Created`.** Check for any `2xx`, not only `200`.
-- **Retry only what failed.** Each accepted `POST` starts its own job, so
-  `send()` retries only `429` and `5xx`, with backoff, jitter and `Retry-After`.
-- **Log the `request_id`.** It is the first thing support asks for, and
-  `GladiaError` puts it in the message.
+- **Keep the default model for mixed-language audio.** Code switching works with
+  Solaria-1, the default. Solaria-3 does not support it
+  ([models](https://docs.gladia.io/chapters/introduction/models)).
+- **Pick the `enhanced` translation model.** It keeps each translated sentence
+  with its own utterance. For natural wording, add `"informal": true` and a
+  short `context`
+  ([options](https://docs.gladia.io/chapters/audio-intelligence/translation)).
+- **Calling the API yourself?** A new job answers `201 Created`, so check for
+  any `2xx`, not only `200`. Retry only `429` and `5xx`, with backoff: each
+  accepted `POST` starts its own job. The SDK does both for you.
+- **Log the `request_id`.** Jobs and errors both carry one: quote it when you
+  contact support.
 - **Check for silent speech loss.** On another recording, the default config
   dropped 11 seconds of English with `status: "done"`: the words around the gap
-  were stretched to cover it. `find_stretched_words()` flags any word longer than
-  1.5 s ([details](FEEDBACK.md#without-code-switching-speech-can-disappear)).
+  were stretched to cover it. A single word that lasts more than 1.5 s is the
+  clue to look for
+  ([details](FEEDBACK.md#without-code-switching-speech-can-disappear)).
 - **Scale:** 3 concurrent jobs on the free plan, 25 plus a queue of 300 on paid
   plans, then `429`
   ([limits](https://docs.gladia.io/chapters/limits-and-specifications/concurrency)).
   Use a `callback` URL instead of polling, and upload once to reuse `audio_url`.
-- **Cost:** this demo is covered by the free credits of a new account. Production
-  prices are on the [pricing page](https://www.gladia.io/pricing).
+- **Cost:** your first tests fit in the free credits of a new account.
+  Production prices are on the [pricing page](https://www.gladia.io/pricing).
 
 ## Files
 
 | Path | What it is |
 | --- | --- |
-| [`compare.py`](compare.py) | The test: upload, two jobs, polling, report |
-| [`audio/chat-v3.wav`](audio/chat-v3.wav) | The clip from the video (23 s) |
+| [`compare.py`](compare.py) | The script behind the before / after comparison |
+| [`audio/chat-v3.wav`](audio/chat-v3.wav) | The clip from the video (19 s) |
 | [`responses/`](responses/) | Raw requests and responses of both jobs |
 | [`WALKTHROUGH.md`](WALKTHROUGH.md) | The demo, written as a video script |
 | [`FEEDBACK.md`](FEEDBACK.md) | For the Gladia team: what I observed, doc gaps, two API ideas |

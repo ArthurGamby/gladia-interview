@@ -1,22 +1,22 @@
 {
-  "id": "838caaac-0b96-4980-9bf2-3b505ee77c6b",
-  "request_id": "G-838caaac",
+  "id": "c77d6ddb-c931-4232-a8bc-4fbda59e3eb3",
+  "request_id": "G-c77d6ddb",
   "version": 2,
   "status": "done",
-  "created_at": "2026-11-12T13:26:51.393Z",
-  "completed_at": "2026-11-12T13:26:54.064Z",
+  "created_at": "2026-11-13T14:00:54.288Z",
+  "completed_at": "2026-11-13T14:00:58.087Z",
   "custom_metadata": null,
   "error_code": null,
   "kind": "pre-recorded",
   "file": {
-    "id": "ab89dd88-a15b-43fa-a370-2b6f2484cb6e",
+    "id": "ed2ec1a5-090c-4104-a4c2-95f207438c65",
     "filename": "chat-v3.wav",
     "source": null,
-    "audio_duration": 23.328,
+    "audio_duration": 18.752,
     "number_of_channels": 1
   },
   "request_params": {
-    "audio_url": "https://api.gladia.io/file/ab89dd88-a15b-43fa-a370-2b6f2484cb6e",
+    "audio_url": "https://api.gladia.io/file/ed2ec1a5-090c-4104-a4c2-95f207438c65",
     "model": "solaria-1",
     "sentences": false,
     "subtitles": false,
@@ -58,10 +58,10 @@
   },
   "result": {
     "metadata": {
-      "audio_duration": 23.328,
+      "audio_duration": 18.752,
       "number_of_distinct_channels": 1,
-      "billing_time": 23.328,
-      "transcription_time": 2.671
+      "billing_time": 18.752,
+      "transcription_time": 3.799
     },
     "transcription": {
       "utterances": [
@@ -106,7 +106,7 @@
           ]
         },
         {
-          "text": "I am in a meeting and suddenly...",
+          "text": "I am in a meeting and suddenly",
           "language": "en",
           "start": 1.19,
           "end": 2.623,
@@ -150,7 +150,7 @@
               "confidence": 0.41
             },
             {
-              "word": " suddenly...",
+              "word": " suddenly",
               "start": 2.259,
               "end": 2.623,
               "confidence": 0.53
@@ -535,184 +535,86 @@
           "text": "I am switching back to English but what happened to the transcript?",
           "language": "en",
           "start": 15.489,
-          "end": 18.151,
-          "confidence": 0.58,
+          "end": 18.147,
+          "confidence": 0.59,
           "channel": 0,
           "words": [
             {
               "word": " I",
               "start": 15.489,
               "end": 15.61,
-              "confidence": 0.12
+              "confidence": 0.1
             },
             {
               "word": " am",
               "start": 15.611,
-              "end": 15.711,
-              "confidence": 0.96
+              "end": 15.709999999999999,
+              "confidence": 0.98
             },
             {
               "word": " switching",
-              "start": 15.751,
-              "end": 16.094,
-              "confidence": 0.57
+              "start": 15.75,
+              "end": 16.093,
+              "confidence": 0.58
             },
             {
               "word": " back",
-              "start": 16.134,
-              "end": 16.275,
+              "start": 16.133,
+              "end": 16.274,
               "confidence": 0.65
             },
             {
               "word": " to",
-              "start": 16.296,
-              "end": 16.417,
-              "confidence": 0.8
+              "start": 16.294,
+              "end": 16.415,
+              "confidence": 0.81
             },
             {
               "word": " English",
-              "start": 16.457,
-              "end": 16.698999999999998,
-              "confidence": 0.74
+              "start": 16.455,
+              "end": 16.717,
+              "confidence": 0.76
             },
             {
               "word": " but",
-              "start": 16.739,
-              "end": 16.88,
+              "start": 16.737,
+              "end": 16.878,
               "confidence": 0.62
             },
             {
               "word": " what",
-              "start": 16.961,
-              "end": 17.102,
-              "confidence": 0.29
+              "start": 16.959,
+              "end": 17.1,
+              "confidence": 0.3
             },
             {
               "word": " happened",
-              "start": 17.103,
-              "end": 17.485,
-              "confidence": 0.44
+              "start": 17.101,
+              "end": 17.482,
+              "confidence": 0.45
             },
             {
               "word": " to",
-              "start": 17.486,
-              "end": 17.566,
+              "start": 17.483,
+              "end": 17.563,
               "confidence": 0.4
             },
             {
               "word": " the",
-              "start": 17.567,
-              "end": 17.667,
-              "confidence": 0.43
-            },
-            {
-              "word": " transcript?",
-              "start": 17.727,
-              "end": 18.151,
-              "confidence": 0.95
-            }
-          ]
-        },
-        {
-          "text": "to the translation if you don't enable code switching.",
-          "language": "fr",
-          "start": 18.272,
-          "end": 20.950999999999997,
-          "confidence": 0.68,
-          "channel": 0,
-          "words": [
-            {
-              "word": " to",
-              "start": 18.272,
-              "end": 18.372999999999998,
-              "confidence": 0.97
-            },
-            {
-              "word": " the",
-              "start": 18.374,
-              "end": 18.473,
-              "confidence": 0.54
-            },
-            {
-              "word": " translation",
-              "start": 18.514,
-              "end": 19.058,
-              "confidence": 0.88
-            },
-            {
-              "word": " if",
-              "start": 19.238999999999997,
-              "end": 19.36,
-              "confidence": 0.89
-            },
-            {
-              "word": " you",
-              "start": 19.38,
-              "end": 19.500999999999998,
-              "confidence": 0.38
-            },
-            {
-              "word": " don't",
-              "start": 19.581,
-              "end": 19.782999999999998,
-              "confidence": 0.74
-            },
-            {
-              "word": " enable",
-              "start": 19.843,
-              "end": 20.246,
-              "confidence": 0.53
-            },
-            {
-              "word": " code",
-              "start": 20.366999999999997,
-              "end": 20.528,
-              "confidence": 0.35
-            },
-            {
-              "word": " switching.",
-              "start": 20.548,
-              "end": 20.950999999999997,
-              "confidence": 0.88
-            }
-          ]
-        },
-        {
-          "text": "Let's take a look.",
-          "language": "en",
-          "start": 22.029,
-          "end": 22.635,
-          "confidence": 0.35,
-          "channel": 0,
-          "words": [
-            {
-              "word": " Let's",
-              "start": 22.029,
-              "end": 22.19,
+              "start": 17.564,
+              "end": 17.664,
               "confidence": 0.45
             },
             {
-              "word": " take",
-              "start": 22.211000000000002,
-              "end": 22.392,
-              "confidence": 0.39
-            },
-            {
-              "word": " a",
-              "start": 22.393,
-              "end": 22.473,
-              "confidence": 0.18
-            },
-            {
-              "word": " look.",
-              "start": 22.474,
-              "end": 22.635,
-              "confidence": 0.38
+              "word": " transcript?",
+              "start": 17.724,
+              "end": 18.147,
+              "confidence": 0.96
             }
           ]
         }
       ],
-      "full_transcript": "So I'm speaking in English, I am in a meeting and suddenly... One of my friends, one of my colleague, From France Paul is asking me something really important that I need to answer. Merci Paul pour les croissants, par contre... Pour le rapport, là, je suis en meeting. On voit ça juste après, OK ? Merci. I am switching back to English but what happened to the transcript? to the translation if you don't enable code switching. Let's take a look.",
+      "full_transcript": "So I'm speaking in English, I am in a meeting and suddenly One of my friends, one of my colleague, From France Paul is asking me something really important that I need to answer. Merci Paul pour les croissants, par contre... Pour le rapport, là, je suis en meeting. On voit ça juste après, OK ? Merci. I am switching back to English but what happened to the transcript?",
       "languages": [
         "en",
         "fr"
@@ -726,7 +628,7 @@
           "languages": [
             "en"
           ],
-          "full_transcript": "So I'm speaking in English, I am in a meeting and suddenly... One of my friends, one of my colleague, From France Paul is asking me something really important that I need to answer. Thank you Paul for the croissants, on the other hand... Regarding the report, there, I am in a meeting. We will look at that shortly, OK? Thank you. I am switching back to English but what happened to the transcript? to the translation if you do not enable code switching. Let's take a look.",
+          "full_transcript": "So I'm speaking in English, I am in a meeting and suddenly One of my friends, one of my colleague, From France Paul is asking me something really important that I need to answer. Thank you Paul for the croissants, on the other hand... Regarding the report, now, I am in a meeting. We will look at that right after, OK? Thank you. I am switching back to English but what happened to the transcript?",
           "utterances": [
             {
               "words": [
@@ -807,13 +709,13 @@
                   "confidence": 0.41
                 },
                 {
-                  "word": " suddenly...",
+                  "word": " suddenly",
                   "start": 2.259,
                   "end": 2.623,
                   "confidence": 0.53
                 }
               ],
-              "text": "I am in a meeting and suddenly...",
+              "text": "I am in a meeting and suddenly",
               "language": "en",
               "start": 1.19,
               "end": 2.623,
@@ -1093,13 +995,13 @@
             {
               "words": [
                 {
-                  "word": " there,",
+                  "word": " now,",
                   "start": 12.2,
                   "end": 12.321,
                   "confidence": 0.99
                 }
               ],
-              "text": "there,",
+              "text": "now,",
               "language": "en",
               "start": 12.2,
               "end": 12.321,
@@ -1151,41 +1053,47 @@
                 {
                   "word": " We",
                   "start": 13.305,
-                  "end": 13.4525,
+                  "end": 13.43142857142857,
                   "confidence": 0.9279999999999999
                 },
                 {
                   "word": " will",
-                  "start": 13.4525,
-                  "end": 13.6,
+                  "start": 13.43142857142857,
+                  "end": 13.557857142857143,
                   "confidence": 0.9279999999999999
                 },
                 {
                   "word": " look",
-                  "start": 13.6,
-                  "end": 13.747499999999999,
+                  "start": 13.557857142857143,
+                  "end": 13.684285714285714,
                   "confidence": 0.9279999999999999
                 },
                 {
                   "word": " at",
-                  "start": 13.747499999999999,
-                  "end": 13.895,
+                  "start": 13.684285714285714,
+                  "end": 13.810714285714285,
                   "confidence": 0.9279999999999999
                 },
                 {
                   "word": " that",
-                  "start": 13.895,
-                  "end": 14.0425,
+                  "start": 13.810714285714285,
+                  "end": 13.937142857142856,
                   "confidence": 0.9279999999999999
                 },
                 {
-                  "word": " shortly,",
-                  "start": 14.0425,
+                  "word": " right",
+                  "start": 13.937142857142856,
+                  "end": 14.063571428571429,
+                  "confidence": 0.9279999999999999
+                },
+                {
+                  "word": " after,",
+                  "start": 14.063571428571429,
                   "end": 14.19,
                   "confidence": 0.9279999999999999
                 }
               ],
-              "text": "We will look at that shortly,",
+              "text": "We will look at that right after,",
               "language": "en",
               "start": 13.305,
               "end": 14.19,
@@ -1236,191 +1144,87 @@
                   "word": " I",
                   "start": 15.489,
                   "end": 15.61,
-                  "confidence": 0.12
+                  "confidence": 0.1
                 },
                 {
                   "word": " am",
                   "start": 15.611,
-                  "end": 15.711,
-                  "confidence": 0.96
+                  "end": 15.709999999999999,
+                  "confidence": 0.98
                 },
                 {
                   "word": " switching",
-                  "start": 15.751,
-                  "end": 16.094,
-                  "confidence": 0.57
+                  "start": 15.75,
+                  "end": 16.093,
+                  "confidence": 0.58
                 },
                 {
                   "word": " back",
-                  "start": 16.134,
-                  "end": 16.275,
+                  "start": 16.133,
+                  "end": 16.274,
                   "confidence": 0.65
                 },
                 {
                   "word": " to",
-                  "start": 16.296,
-                  "end": 16.417,
-                  "confidence": 0.8
+                  "start": 16.294,
+                  "end": 16.415,
+                  "confidence": 0.81
                 },
                 {
                   "word": " English",
-                  "start": 16.457,
-                  "end": 16.698999999999998,
-                  "confidence": 0.74
+                  "start": 16.455,
+                  "end": 16.717,
+                  "confidence": 0.76
                 },
                 {
                   "word": " but",
-                  "start": 16.739,
-                  "end": 16.88,
+                  "start": 16.737,
+                  "end": 16.878,
                   "confidence": 0.62
                 },
                 {
                   "word": " what",
-                  "start": 16.961,
-                  "end": 17.102,
-                  "confidence": 0.29
+                  "start": 16.959,
+                  "end": 17.1,
+                  "confidence": 0.3
                 },
                 {
                   "word": " happened",
-                  "start": 17.103,
-                  "end": 17.485,
-                  "confidence": 0.44
+                  "start": 17.101,
+                  "end": 17.482,
+                  "confidence": 0.45
                 },
                 {
                   "word": " to",
-                  "start": 17.486,
-                  "end": 17.566,
+                  "start": 17.483,
+                  "end": 17.563,
                   "confidence": 0.4
                 },
                 {
                   "word": " the",
-                  "start": 17.567,
-                  "end": 17.667,
-                  "confidence": 0.43
+                  "start": 17.564,
+                  "end": 17.664,
+                  "confidence": 0.45
                 },
                 {
                   "word": " transcript?",
-                  "start": 17.727,
-                  "end": 18.151,
-                  "confidence": 0.95
+                  "start": 17.724,
+                  "end": 18.147,
+                  "confidence": 0.96
                 }
               ],
               "text": "I am switching back to English but what happened to the transcript?",
               "language": "en",
               "start": 15.489,
-              "end": 18.151,
+              "end": 18.147,
               "channel": 0,
-              "confidence": 0.5808333333333333
-            },
-            {
-              "words": [
-                {
-                  "word": " to",
-                  "start": 18.272,
-                  "end": 18.5399,
-                  "confidence": 0.6844444444444444
-                },
-                {
-                  "word": " the",
-                  "start": 18.5399,
-                  "end": 18.807799999999997,
-                  "confidence": 0.6844444444444444
-                },
-                {
-                  "word": " translation",
-                  "start": 18.807799999999997,
-                  "end": 19.075699999999998,
-                  "confidence": 0.6844444444444444
-                },
-                {
-                  "word": " if",
-                  "start": 19.075699999999998,
-                  "end": 19.3436,
-                  "confidence": 0.6844444444444444
-                },
-                {
-                  "word": " you",
-                  "start": 19.3436,
-                  "end": 19.6115,
-                  "confidence": 0.6844444444444444
-                },
-                {
-                  "word": " do",
-                  "start": 19.6115,
-                  "end": 19.879399999999997,
-                  "confidence": 0.6844444444444444
-                },
-                {
-                  "word": " not",
-                  "start": 19.879399999999997,
-                  "end": 20.147299999999998,
-                  "confidence": 0.6844444444444444
-                },
-                {
-                  "word": " enable",
-                  "start": 20.147299999999998,
-                  "end": 20.4152,
-                  "confidence": 0.6844444444444444
-                },
-                {
-                  "word": " code",
-                  "start": 20.4152,
-                  "end": 20.683099999999996,
-                  "confidence": 0.6844444444444444
-                },
-                {
-                  "word": " switching.",
-                  "start": 20.683099999999996,
-                  "end": 20.950999999999997,
-                  "confidence": 0.6844444444444444
-                }
-              ],
-              "text": "to the translation if you do not enable code switching.",
-              "language": "en",
-              "start": 18.272,
-              "end": 20.950999999999997,
-              "channel": 0,
-              "confidence": 0.6844444444444444
-            },
-            {
-              "words": [
-                {
-                  "word": " Let's",
-                  "start": 22.029,
-                  "end": 22.19,
-                  "confidence": 0.45
-                },
-                {
-                  "word": " take",
-                  "start": 22.211000000000002,
-                  "end": 22.392,
-                  "confidence": 0.39
-                },
-                {
-                  "word": " a",
-                  "start": 22.393,
-                  "end": 22.473,
-                  "confidence": 0.18
-                },
-                {
-                  "word": " look.",
-                  "start": 22.474,
-                  "end": 22.635,
-                  "confidence": 0.38
-                }
-              ],
-              "text": "Let's take a look.",
-              "language": "en",
-              "start": 22.029,
-              "end": 22.635,
-              "channel": 0,
-              "confidence": 0.35
+              "confidence": 0.5883333333333333
             }
           ],
           "error": null
         }
       ],
-      "exec_time": 1.0167678459882736,
+      "exec_time": 0.8783260289728642,
       "error": null
     }
   }

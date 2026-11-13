@@ -49,10 +49,10 @@ English is back.
   says "No spoken content is lost".
 - **A sentence can get the wrong language.** In the same recording, "and I'll
   send you the report right after this call" came back in French ("Je vous
-  envoyerai le rapport…", `fr`). In the video clip, "to the translation if you
-  don't enable code switching." is labelled `fr`, with its English text intact.
-- **Utterance `confidence` is not a language confidence.** Those two wrong labels
-  scored 0.35 and 0.68, so it is only a weak hint.
+  envoyerai le rapport…", `fr`).
+- **Utterance `confidence` is not a language confidence.** That wrong label
+  scored 0.35, and a correct one in the video clip ("par contre...") scored
+  0.26, so it is only a weak hint.
 - **Short accented phrases at the start of a file are fragile.** In my first take
   the four opening English
   sentences were detected as French and rendered in bad French ("we shipped the

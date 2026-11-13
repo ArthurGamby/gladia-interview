@@ -12,15 +12,14 @@ fully translated, and how to test it on your own audio.
 ### 0:00 – 0:25 · Cold open
 
 **On screen:** me, facing the camera, in a meeting. I turn to my colleague Paul
-and speak French, then turn back and speak English. That is the 23-second clip,
+and speak French, then turn back and speak English. That is the 19-second clip,
 [`audio/chat-v3.wav`](audio/chat-v3.wav).
 
 > "So I'm speaking in English, I am in a meeting and suddenly one of my
 > colleagues from France, Paul, is asking me something really important…
 > *Ah, merci Paul pour les croissants. Par contre, pour le rapport, là je suis en
 > meeting, on voit ça juste après, ok ? Merci.* I am switching back to English,
-> but what happens to the transcript, to the translation, if you don't enable
-> code switching? Let's take a look."
+> but what happens to the transcript?"
 
 ---
 
@@ -70,16 +69,15 @@ en version: ... merci Paul pour les croissants.  en version: ... Thank you Paul 
 
 **Voice-over:**
 > "Three things. Listing the languages is not enough: you need
-> `code_switching: true`. Use the `enhanced` translation model. And test with
-> your own speakers: one English sentence in this clip still came back labelled
-> French, so check the labels before you trust them."
+> `code_switching: true`. Use the `enhanced` translation model. And keep the
+> default model, Solaria-1: the newer Solaria-3 does not do code switching."
 
 ---
 
 ### 1:45 – 2:00 · Wrap-up
 
-**On screen:** the repo.
+**On screen:** the README, on "Try it on your own audio".
 
-> "The script, the audio and the raw responses are in the repo. Run it on one of
-> your own calls: it takes two minutes, and the free credits of a new account
-> cover it."
+> "To test it on one of your own calls, install the Gladia CLI and run one
+> command. The README has the same settings for your code, in Python and
+> JavaScript. The free credits of a new account cover it."
