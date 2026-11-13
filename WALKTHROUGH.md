@@ -4,6 +4,11 @@ The [50-second video](https://youtu.be/ms9HPNIL2pA), shot by shot. One bilingual
 clip, sent twice to Gladia's pre-recorded API. The two requests differ by one
 field: `code_switching`.
 
+**About the format:** this video is made for fast feeds like X, which is why it
+is one of the [post drafts](devrel-plan/CONTENT-IDEAS.md#seven-posts-already-drafted).
+YouTube only hosts it, so you can watch it in high quality. A YouTube video
+would be longer, with an intro and a conclusion.
+
 ---
 
 ### 0:00 – 0:22 · The example

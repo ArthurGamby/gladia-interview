@@ -89,6 +89,18 @@ Every post carries a visual: a short clip, a GIF, a formatted JSON, a clean term
 
 Each video also gets two or three posts that send people to it. From my own X account: the same things with more of the kitchen (what I am building, what broke, what I learned).
 
+### Seven posts, already drafted
+
+Built from Part 1 and two Gladia pages, each with its visual and its link in the first reply. These are public Typefully previews; nothing is scheduled.
+
+1. [Every language in one call](https://typefully.com/t/ZRjzbAv): the animation from Part 1
+2. [The story](https://typefully.com/t/dQJ7PU4): the 50-second video, made for the feed
+3. [One field](https://typefully.com/t/BdwPJET): the request, with `code_switching` highlighted
+4. [Try it in one command](https://typefully.com/t/CMgl3ns): Gladia's CLI and its real output
+5. [Let your coding agent build it](https://typefully.com/t/FReSpwP): Claude Code with Gladia's skills
+6. [GladiaFlow, the Wispr Flow alternative](https://typefully.com/t/Ay6xDu2): open source, pay for the audio you dictate
+7. [Compare STT, the blind test](https://typefully.com/t/BZwaDuA): test speech-to-text APIs on your own audio
+
 ## "Gladia + X" tutorials
 
 - **Already in the docs, to turn into full tutorials with a video:** Pipecat, LiveKit, Vapi, Twilio, Recall, Meeting BaaS, Attendee, VideoSDK, Composio, Zapier, Make, n8n. The Make and Zapier pages have no quickstart yet. Creators already made videos on LiveKit, Vapi and Pipecat (0.9K to 1.4K views).
