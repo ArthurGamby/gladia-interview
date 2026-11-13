@@ -1,0 +1,1392 @@
+{
+  "id": "24117033-619d-4830-a99b-aec3ce763196",
+  "request_id": "G-24117033",
+  "version": 2,
+  "status": "done",
+  "created_at": "2026-11-12T13:26:50.962Z",
+  "completed_at": "2026-11-12T13:26:54.438Z",
+  "custom_metadata": null,
+  "error_code": null,
+  "kind": "pre-recorded",
+  "file": {
+    "id": "ab89dd88-a15b-43fa-a370-2b6f2484cb6e",
+    "filename": "chat-v3.wav",
+    "source": null,
+    "audio_duration": 23.328,
+    "number_of_channels": 1
+  },
+  "request_params": {
+    "audio_url": "https://api.gladia.io/file/ab89dd88-a15b-43fa-a370-2b6f2484cb6e",
+    "model": "solaria-1",
+    "sentences": false,
+    "subtitles": false,
+    "diarization": false,
+    "translation": true,
+    "audio_to_llm": false,
+    "display_mode": false,
+    "pii_redaction": false,
+    "summarization": false,
+    "audio_enhancer": false,
+    "custom_spelling": false,
+    "detect_language": true,
+    "language_config": {
+      "languages": []
+    },
+    "name_consistency": false,
+    "sentiment_analysis": false,
+    "translation_config": {
+      "model": "enhanced",
+      "context": "",
+      "lipsync": true,
+      "informal": false,
+      "target_languages": [
+        "en"
+      ],
+      "context_adaptation": true,
+      "match_original_utterances": true
+    },
+    "diarization_enhanced": false,
+    "punctuation_enhanced": false,
+    "enable_code_switching": false,
+    "named_entity_recognition": false,
+    "accurate_words_timestamps": false,
+    "skip_channel_deduplication": false
+  },
+  "result": {
+    "metadata": {
+      "audio_duration": 23.328,
+      "number_of_distinct_channels": 1,
+      "billing_time": 23.328,
+      "transcription_time": 3.476
+    },
+    "transcription": {
+      "utterances": [
+        {
+          "text": "So I'm speaking in English,",
+          "language": "en",
+          "start": 0.01999999999999999,
+          "end": 1.061,
+          "confidence": 0.75,
+          "channel": 0,
+          "words": [
+            {
+              "word": "So",
+              "start": 0.01999999999999999,
+              "end": 0.13999999999999999,
+              "confidence": 0.7
+            },
+            {
+              "word": " I'm",
+              "start": 0.141,
+              "end": 0.26,
+              "confidence": 0.36
+            },
+            {
+              "word": " speaking",
+              "start": 0.31999999999999995,
+              "end": 0.641,
+              "confidence": 0.83
+            },
+            {
+              "word": " in",
+              "start": 0.642,
+              "end": 0.761,
+              "confidence": 0.97
+            },
+            {
+              "word": " English,",
+              "start": 0.762,
+              "end": 1.061,
+              "confidence": 0.88
+            }
+          ]
+        },
+        {
+          "text": "I am in a meeting and suddenly one of my friends,",
+          "language": "en",
+          "start": 1.1809999999999998,
+          "end": 3.5429999999999997,
+          "confidence": 0.62,
+          "channel": 0,
+          "words": [
+            {
+              "word": " I",
+              "start": 1.1809999999999998,
+              "end": 1.301,
+              "confidence": 0.03
+            },
+            {
+              "word": " am",
+              "start": 1.3019999999999998,
+              "end": 1.4009999999999998,
+              "confidence": 0.68
+            },
+            {
+              "word": " in",
+              "start": 1.4209999999999998,
+              "end": 1.522,
+              "confidence": 0.71
+            },
+            {
+              "word": " a",
+              "start": 1.523,
+              "end": 1.5819999999999999,
+              "confidence": 0.03
+            },
+            {
+              "word": " meeting",
+              "start": 1.6019999999999999,
+              "end": 1.9019999999999997,
+              "confidence": 0.77
+            },
+            {
+              "word": " and",
+              "start": 2.062,
+              "end": 2.202,
+              "confidence": 0.33
+            },
+            {
+              "word": " suddenly",
+              "start": 2.242,
+              "end": 2.6029999999999998,
+              "confidence": 0.54
+            },
+            {
+              "word": " one",
+              "start": 2.843,
+              "end": 2.963,
+              "confidence": 0.91
+            },
+            {
+              "word": " of",
+              "start": 2.964,
+              "end": 3.0629999999999997,
+              "confidence": 0.99
+            },
+            {
+              "word": " my",
+              "start": 3.064,
+              "end": 3.183,
+              "confidence": 0.98
+            },
+            {
+              "word": " friends,",
+              "start": 3.263,
+              "end": 3.5429999999999997,
+              "confidence": 0.83
+            }
+          ]
+        },
+        {
+          "text": "one of my colleagues from France,",
+          "language": "en",
+          "start": 3.6639999999999997,
+          "end": 5.265000000000001,
+          "confidence": 0.86,
+          "channel": 0,
+          "words": [
+            {
+              "word": " one",
+              "start": 3.6639999999999997,
+              "end": 3.784,
+              "confidence": 0.95
+            },
+            {
+              "word": " of",
+              "start": 3.7849999999999997,
+              "end": 3.884,
+              "confidence": 0.98
+            },
+            {
+              "word": " my",
+              "start": 3.885,
+              "end": 4.004,
+              "confidence": 0.98
+            },
+            {
+              "word": " colleagues",
+              "start": 4.103999999999999,
+              "end": 4.464,
+              "confidence": 0.73
+            },
+            {
+              "word": " from",
+              "start": 4.704000000000001,
+              "end": 4.845000000000001,
+              "confidence": 0.99
+            },
+            {
+              "word": " France,",
+              "start": 4.945,
+              "end": 5.265000000000001,
+              "confidence": 0.52
+            }
+          ]
+        },
+        {
+          "text": "Paul,",
+          "language": "en",
+          "start": 5.345000000000001,
+          "end": 5.565,
+          "confidence": 0.98,
+          "channel": 0,
+          "words": [
+            {
+              "word": " Paul,",
+              "start": 5.345000000000001,
+              "end": 5.565,
+              "confidence": 0.98
+            }
+          ]
+        },
+        {
+          "text": "is asking me something really important that I need to answer.",
+          "language": "en",
+          "start": 5.745,
+          "end": 8.248000000000001,
+          "confidence": 0.64,
+          "channel": 0,
+          "words": [
+            {
+              "word": " is",
+              "start": 5.745,
+              "end": 5.8660000000000005,
+              "confidence": 0.98
+            },
+            {
+              "word": " asking",
+              "start": 6.026000000000001,
+              "end": 6.346,
+              "confidence": 0.98
+            },
+            {
+              "word": " me",
+              "start": 6.347,
+              "end": 6.466,
+              "confidence": 0.49
+            },
+            {
+              "word": " something",
+              "start": 6.506,
+              "end": 6.846,
+              "confidence": 0.88
+            },
+            {
+              "word": " really",
+              "start": 6.8870000000000005,
+              "end": 7.027,
+              "confidence": 0.69
+            },
+            {
+              "word": " important",
+              "start": 7.067,
+              "end": 7.447,
+              "confidence": 0.97
+            },
+            {
+              "word": " that",
+              "start": 7.487,
+              "end": 7.607,
+              "confidence": 0.18
+            },
+            {
+              "word": " I",
+              "start": 7.627000000000001,
+              "end": 7.727,
+              "confidence": 0.42
+            },
+            {
+              "word": " need",
+              "start": 7.728000000000001,
+              "end": 7.867,
+              "confidence": 0.43
+            },
+            {
+              "word": " to",
+              "start": 7.868,
+              "end": 7.947000000000001,
+              "confidence": 0.48
+            },
+            {
+              "word": " answer.",
+              "start": 7.968,
+              "end": 8.248000000000001,
+              "confidence": 0.55
+            }
+          ]
+        },
+        {
+          "text": "Ah,",
+          "language": "en",
+          "start": 9.428,
+          "end": 9.548000000000002,
+          "confidence": 0.8,
+          "channel": 0,
+          "words": [
+            {
+              "word": " Ah,",
+              "start": 9.428,
+              "end": 9.548000000000002,
+              "confidence": 0.8
+            }
+          ]
+        },
+        {
+          "text": "merci Paul pour les croissants.",
+          "language": "en",
+          "start": 9.728000000000002,
+          "end": 10.870000000000001,
+          "confidence": 0.92,
+          "channel": 0,
+          "words": [
+            {
+              "word": " merci",
+              "start": 9.728000000000002,
+              "end": 9.969000000000001,
+              "confidence": 0.86
+            },
+            {
+              "word": " Paul",
+              "start": 10.049000000000001,
+              "end": 10.189000000000002,
+              "confidence": 1
+            },
+            {
+              "word": " pour",
+              "start": 10.209000000000001,
+              "end": 10.329,
+              "confidence": 0.9
+            },
+            {
+              "word": " les",
+              "start": 10.349,
+              "end": 10.469000000000001,
+              "confidence": 0.99
+            },
+            {
+              "word": " croissants.",
+              "start": 10.47,
+              "end": 10.870000000000001,
+              "confidence": 0.83
+            }
+          ]
+        },
+        {
+          "text": "Par contre,",
+          "language": "en",
+          "start": 10.91,
+          "end": 11.270000000000001,
+          "confidence": 0.81,
+          "channel": 0,
+          "words": [
+            {
+              "word": " Par",
+              "start": 10.91,
+              "end": 11.030000000000001,
+              "confidence": 0.97
+            },
+            {
+              "word": " contre,",
+              "start": 11.05,
+              "end": 11.270000000000001,
+              "confidence": 0.65
+            }
+          ]
+        },
+        {
+          "text": "pour le rapport,",
+          "language": "en",
+          "start": 11.31,
+          "end": 12.071000000000002,
+          "confidence": 0.94,
+          "channel": 0,
+          "words": [
+            {
+              "word": " pour",
+              "start": 11.31,
+              "end": 11.430000000000001,
+              "confidence": 0.95
+            },
+            {
+              "word": " le",
+              "start": 11.450000000000001,
+              "end": 11.57,
+              "confidence": 0.98
+            },
+            {
+              "word": " rapport,",
+              "start": 11.750000000000002,
+              "end": 12.071000000000002,
+              "confidence": 0.88
+            }
+          ]
+        },
+        {
+          "text": "là je suis en meeting,",
+          "language": "en",
+          "start": 12.191,
+          "end": 13.132000000000001,
+          "confidence": 0.55,
+          "channel": 0,
+          "words": [
+            {
+              "word": " là",
+              "start": 12.191,
+              "end": 12.311000000000002,
+              "confidence": 0.99
+            },
+            {
+              "word": " je",
+              "start": 12.351,
+              "end": 12.451,
+              "confidence": 0
+            },
+            {
+              "word": " suis",
+              "start": 12.452000000000002,
+              "end": 12.611,
+              "confidence": 0.47
+            },
+            {
+              "word": " en",
+              "start": 12.612000000000002,
+              "end": 12.731000000000002,
+              "confidence": 0.51
+            },
+            {
+              "word": " meeting,",
+              "start": 12.791,
+              "end": 13.132000000000001,
+              "confidence": 0.79
+            }
+          ]
+        },
+        {
+          "text": "on voit ça juste après,",
+          "language": "en",
+          "start": 13.292000000000002,
+          "end": 14.173000000000002,
+          "confidence": 0.9,
+          "channel": 0,
+          "words": [
+            {
+              "word": " on",
+              "start": 13.292000000000002,
+              "end": 13.412,
+              "confidence": 0.93
+            },
+            {
+              "word": " voit",
+              "start": 13.492,
+              "end": 13.632000000000001,
+              "confidence": 0.72
+            },
+            {
+              "word": " ça",
+              "start": 13.633000000000001,
+              "end": 13.752,
+              "confidence": 0.98
+            },
+            {
+              "word": " juste",
+              "start": 13.792000000000002,
+              "end": 13.952000000000002,
+              "confidence": 0.9
+            },
+            {
+              "word": " après,",
+              "start": 13.992,
+              "end": 14.173000000000002,
+              "confidence": 0.99
+            }
+          ]
+        },
+        {
+          "text": "ok?",
+          "language": "en",
+          "start": 14.293000000000001,
+          "end": 14.413,
+          "confidence": 0.89,
+          "channel": 0,
+          "words": [
+            {
+              "word": " ok?",
+              "start": 14.293000000000001,
+              "end": 14.413,
+              "confidence": 0.89
+            }
+          ]
+        },
+        {
+          "text": "Merci.",
+          "language": "en",
+          "start": 14.933000000000002,
+          "end": 15.154000000000002,
+          "confidence": 0.69,
+          "channel": 0,
+          "words": [
+            {
+              "word": " Merci.",
+              "start": 14.933000000000002,
+              "end": 15.154000000000002,
+              "confidence": 0.69
+            }
+          ]
+        },
+        {
+          "text": "I am switching back to English but what happens to the transcript,",
+          "language": "en",
+          "start": 15.514000000000001,
+          "end": 18.136,
+          "confidence": 0.7,
+          "channel": 0,
+          "words": [
+            {
+              "word": " I",
+              "start": 15.514000000000001,
+              "end": 15.634,
+              "confidence": 0.03
+            },
+            {
+              "word": " am",
+              "start": 15.635000000000002,
+              "end": 15.734000000000002,
+              "confidence": 0.88
+            },
+            {
+              "word": " switching",
+              "start": 15.774000000000001,
+              "end": 16.094,
+              "confidence": 0.84
+            },
+            {
+              "word": " back",
+              "start": 16.134,
+              "end": 16.275,
+              "confidence": 0.92
+            },
+            {
+              "word": " to",
+              "start": 16.295,
+              "end": 16.415,
+              "confidence": 0.93
+            },
+            {
+              "word": " English",
+              "start": 16.455000000000002,
+              "end": 16.695,
+              "confidence": 0.85
+            },
+            {
+              "word": " but",
+              "start": 16.755000000000003,
+              "end": 16.875,
+              "confidence": 0.65
+            },
+            {
+              "word": " what",
+              "start": 16.955000000000002,
+              "end": 17.095000000000002,
+              "confidence": 0.3
+            },
+            {
+              "word": " happens",
+              "start": 17.115000000000002,
+              "end": 17.476000000000003,
+              "confidence": 0.55
+            },
+            {
+              "word": " to",
+              "start": 17.477,
+              "end": 17.556,
+              "confidence": 0.98
+            },
+            {
+              "word": " the",
+              "start": 17.557000000000002,
+              "end": 17.676000000000002,
+              "confidence": 0.52
+            },
+            {
+              "word": " transcript,",
+              "start": 17.716,
+              "end": 18.136,
+              "confidence": 0.96
+            }
+          ]
+        },
+        {
+          "text": "to the translation if you don't enable code switching?",
+          "language": "en",
+          "start": 18.256,
+          "end": 20.959,
+          "confidence": 0.74,
+          "channel": 0,
+          "words": [
+            {
+              "word": " to",
+              "start": 18.256,
+              "end": 18.377000000000002,
+              "confidence": 0.99
+            },
+            {
+              "word": " the",
+              "start": 18.378,
+              "end": 18.497,
+              "confidence": 0.51
+            },
+            {
+              "word": " translation",
+              "start": 18.537000000000003,
+              "end": 19.057000000000002,
+              "confidence": 0.88
+            },
+            {
+              "word": " if",
+              "start": 19.237000000000002,
+              "end": 19.357,
+              "confidence": 0.99
+            },
+            {
+              "word": " you",
+              "start": 19.397000000000002,
+              "end": 19.518,
+              "confidence": 0.82
+            },
+            {
+              "word": " don't",
+              "start": 19.578,
+              "end": 19.778000000000002,
+              "confidence": 0.76
+            },
+            {
+              "word": " enable",
+              "start": 19.858,
+              "end": 20.258000000000003,
+              "confidence": 0.55
+            },
+            {
+              "word": " code",
+              "start": 20.378,
+              "end": 20.539,
+              "confidence": 0.36
+            },
+            {
+              "word": " switching?",
+              "start": 20.559,
+              "end": 20.959,
+              "confidence": 0.82
+            }
+          ]
+        },
+        {
+          "text": "Let's take a look.",
+          "language": "en",
+          "start": 22.055,
+          "end": 22.656,
+          "confidence": 0.49,
+          "channel": 0,
+          "words": [
+            {
+              "word": " Let's",
+              "start": 22.055,
+              "end": 22.215,
+              "confidence": 0.72
+            },
+            {
+              "word": " take",
+              "start": 22.236,
+              "end": 22.416,
+              "confidence": 0.4
+            },
+            {
+              "word": " a",
+              "start": 22.416999999999998,
+              "end": 22.476,
+              "confidence": 0.12
+            },
+            {
+              "word": " look.",
+              "start": 22.496,
+              "end": 22.656,
+              "confidence": 0.72
+            }
+          ]
+        }
+      ],
+      "full_transcript": "So I'm speaking in English, I am in a meeting and suddenly one of my friends, one of my colleagues from France, Paul, is asking me something really important that I need to answer. Ah, merci Paul pour les croissants. Par contre, pour le rapport, là je suis en meeting, on voit ça juste après, ok? Merci. I am switching back to English but what happens to the transcript, to the translation if you don't enable code switching? Let's take a look.",
+      "languages": [
+        "en"
+      ]
+    },
+    "translation": {
+      "success": true,
+      "is_empty": false,
+      "results": [
+        {
+          "languages": [
+            "en"
+          ],
+          "full_transcript": "So I'm speaking in English, I am in a meeting and suddenly one of my friends, one of my colleagues from France, Paul, is asking me something really important that I need to answer. Ah, merci Paul pour les croissants. Par contre, pour le rapport, là je suis en meeting, on voit ça juste après, ok? Merci. I am switching back to English but what happens to the transcript, to the translation if you don't enable code switching? Let's take a look.",
+          "utterances": [
+            {
+              "words": [
+                {
+                  "word": "So",
+                  "start": 0.01999999999999999,
+                  "end": 0.13999999999999999,
+                  "confidence": 0.7
+                },
+                {
+                  "word": " I'm",
+                  "start": 0.141,
+                  "end": 0.26,
+                  "confidence": 0.36
+                },
+                {
+                  "word": " speaking",
+                  "start": 0.31999999999999995,
+                  "end": 0.641,
+                  "confidence": 0.83
+                },
+                {
+                  "word": " in",
+                  "start": 0.642,
+                  "end": 0.761,
+                  "confidence": 0.97
+                },
+                {
+                  "word": " English,",
+                  "start": 0.762,
+                  "end": 1.061,
+                  "confidence": 0.88
+                }
+              ],
+              "text": "So I'm speaking in English,",
+              "language": "en",
+              "start": 0.01999999999999999,
+              "end": 1.061,
+              "channel": 0,
+              "confidence": 0.748
+            },
+            {
+              "words": [
+                {
+                  "word": " I",
+                  "start": 1.1809999999999998,
+                  "end": 1.301,
+                  "confidence": 0.03
+                },
+                {
+                  "word": " am",
+                  "start": 1.3019999999999998,
+                  "end": 1.4009999999999998,
+                  "confidence": 0.68
+                },
+                {
+                  "word": " in",
+                  "start": 1.4209999999999998,
+                  "end": 1.522,
+                  "confidence": 0.71
+                },
+                {
+                  "word": " a",
+                  "start": 1.523,
+                  "end": 1.5819999999999999,
+                  "confidence": 0.03
+                },
+                {
+                  "word": " meeting",
+                  "start": 1.6019999999999999,
+                  "end": 1.9019999999999997,
+                  "confidence": 0.77
+                },
+                {
+                  "word": " and",
+                  "start": 2.062,
+                  "end": 2.202,
+                  "confidence": 0.33
+                },
+                {
+                  "word": " suddenly",
+                  "start": 2.242,
+                  "end": 2.6029999999999998,
+                  "confidence": 0.54
+                },
+                {
+                  "word": " one",
+                  "start": 2.843,
+                  "end": 2.963,
+                  "confidence": 0.91
+                },
+                {
+                  "word": " of",
+                  "start": 2.964,
+                  "end": 3.0629999999999997,
+                  "confidence": 0.99
+                },
+                {
+                  "word": " my",
+                  "start": 3.064,
+                  "end": 3.183,
+                  "confidence": 0.98
+                },
+                {
+                  "word": " friends,",
+                  "start": 3.263,
+                  "end": 3.5429999999999997,
+                  "confidence": 0.83
+                }
+              ],
+              "text": "I am in a meeting and suddenly one of my friends,",
+              "language": "en",
+              "start": 1.1809999999999998,
+              "end": 3.5429999999999997,
+              "channel": 0,
+              "confidence": 0.6181818181818182
+            },
+            {
+              "words": [
+                {
+                  "word": " one",
+                  "start": 3.6639999999999997,
+                  "end": 3.784,
+                  "confidence": 0.95
+                },
+                {
+                  "word": " of",
+                  "start": 3.7849999999999997,
+                  "end": 3.884,
+                  "confidence": 0.98
+                },
+                {
+                  "word": " my",
+                  "start": 3.885,
+                  "end": 4.004,
+                  "confidence": 0.98
+                },
+                {
+                  "word": " colleagues",
+                  "start": 4.103999999999999,
+                  "end": 4.464,
+                  "confidence": 0.73
+                },
+                {
+                  "word": " from",
+                  "start": 4.704000000000001,
+                  "end": 4.845000000000001,
+                  "confidence": 0.99
+                },
+                {
+                  "word": " France,",
+                  "start": 4.945,
+                  "end": 5.265000000000001,
+                  "confidence": 0.52
+                }
+              ],
+              "text": "one of my colleagues from France,",
+              "language": "en",
+              "start": 3.6639999999999997,
+              "end": 5.265000000000001,
+              "channel": 0,
+              "confidence": 0.8583333333333334
+            },
+            {
+              "words": [
+                {
+                  "word": " Paul,",
+                  "start": 5.345000000000001,
+                  "end": 5.565,
+                  "confidence": 0.98
+                }
+              ],
+              "text": "Paul,",
+              "language": "en",
+              "start": 5.345000000000001,
+              "end": 5.565,
+              "channel": 0,
+              "confidence": 0.98
+            },
+            {
+              "words": [
+                {
+                  "word": " is",
+                  "start": 5.745,
+                  "end": 5.8660000000000005,
+                  "confidence": 0.98
+                },
+                {
+                  "word": " asking",
+                  "start": 6.026000000000001,
+                  "end": 6.346,
+                  "confidence": 0.98
+                },
+                {
+                  "word": " me",
+                  "start": 6.347,
+                  "end": 6.466,
+                  "confidence": 0.49
+                },
+                {
+                  "word": " something",
+                  "start": 6.506,
+                  "end": 6.846,
+                  "confidence": 0.88
+                },
+                {
+                  "word": " really",
+                  "start": 6.8870000000000005,
+                  "end": 7.027,
+                  "confidence": 0.69
+                },
+                {
+                  "word": " important",
+                  "start": 7.067,
+                  "end": 7.447,
+                  "confidence": 0.97
+                },
+                {
+                  "word": " that",
+                  "start": 7.487,
+                  "end": 7.607,
+                  "confidence": 0.18
+                },
+                {
+                  "word": " I",
+                  "start": 7.627000000000001,
+                  "end": 7.727,
+                  "confidence": 0.42
+                },
+                {
+                  "word": " need",
+                  "start": 7.728000000000001,
+                  "end": 7.867,
+                  "confidence": 0.43
+                },
+                {
+                  "word": " to",
+                  "start": 7.868,
+                  "end": 7.947000000000001,
+                  "confidence": 0.48
+                },
+                {
+                  "word": " answer.",
+                  "start": 7.968,
+                  "end": 8.248000000000001,
+                  "confidence": 0.55
+                }
+              ],
+              "text": "is asking me something really important that I need to answer.",
+              "language": "en",
+              "start": 5.745,
+              "end": 8.248000000000001,
+              "channel": 0,
+              "confidence": 0.6409090909090909
+            },
+            {
+              "words": [
+                {
+                  "word": " Ah,",
+                  "start": 9.428,
+                  "end": 9.548000000000002,
+                  "confidence": 0.8
+                }
+              ],
+              "text": "Ah,",
+              "language": "en",
+              "start": 9.428,
+              "end": 9.548000000000002,
+              "channel": 0,
+              "confidence": 0.8
+            },
+            {
+              "words": [
+                {
+                  "word": " merci",
+                  "start": 9.728000000000002,
+                  "end": 9.969000000000001,
+                  "confidence": 0.86
+                },
+                {
+                  "word": " Paul",
+                  "start": 10.049000000000001,
+                  "end": 10.189000000000002,
+                  "confidence": 1
+                },
+                {
+                  "word": " pour",
+                  "start": 10.209000000000001,
+                  "end": 10.329,
+                  "confidence": 0.9
+                },
+                {
+                  "word": " les",
+                  "start": 10.349,
+                  "end": 10.469000000000001,
+                  "confidence": 0.99
+                },
+                {
+                  "word": " croissants.",
+                  "start": 10.47,
+                  "end": 10.870000000000001,
+                  "confidence": 0.83
+                }
+              ],
+              "text": "merci Paul pour les croissants.",
+              "language": "en",
+              "start": 9.728000000000002,
+              "end": 10.870000000000001,
+              "channel": 0,
+              "confidence": 0.916
+            },
+            {
+              "words": [
+                {
+                  "word": " Par",
+                  "start": 10.91,
+                  "end": 11.030000000000001,
+                  "confidence": 0.97
+                },
+                {
+                  "word": " contre,",
+                  "start": 11.05,
+                  "end": 11.270000000000001,
+                  "confidence": 0.65
+                }
+              ],
+              "text": "Par contre,",
+              "language": "en",
+              "start": 10.91,
+              "end": 11.270000000000001,
+              "channel": 0,
+              "confidence": 0.81
+            },
+            {
+              "words": [
+                {
+                  "word": " pour",
+                  "start": 11.31,
+                  "end": 11.430000000000001,
+                  "confidence": 0.95
+                },
+                {
+                  "word": " le",
+                  "start": 11.450000000000001,
+                  "end": 11.57,
+                  "confidence": 0.98
+                },
+                {
+                  "word": " rapport,",
+                  "start": 11.750000000000002,
+                  "end": 12.071000000000002,
+                  "confidence": 0.88
+                }
+              ],
+              "text": "pour le rapport,",
+              "language": "en",
+              "start": 11.31,
+              "end": 12.071000000000002,
+              "channel": 0,
+              "confidence": 0.9366666666666666
+            },
+            {
+              "words": [
+                {
+                  "word": " là",
+                  "start": 12.191,
+                  "end": 12.311000000000002,
+                  "confidence": 0.99
+                },
+                {
+                  "word": " je",
+                  "start": 12.351,
+                  "end": 12.451,
+                  "confidence": 0
+                },
+                {
+                  "word": " suis",
+                  "start": 12.452000000000002,
+                  "end": 12.611,
+                  "confidence": 0.47
+                },
+                {
+                  "word": " en",
+                  "start": 12.612000000000002,
+                  "end": 12.731000000000002,
+                  "confidence": 0.51
+                },
+                {
+                  "word": " meeting,",
+                  "start": 12.791,
+                  "end": 13.132000000000001,
+                  "confidence": 0.79
+                }
+              ],
+              "text": "là je suis en meeting,",
+              "language": "en",
+              "start": 12.191,
+              "end": 13.132000000000001,
+              "channel": 0,
+              "confidence": 0.5519999999999999
+            },
+            {
+              "words": [
+                {
+                  "word": " on",
+                  "start": 13.292000000000002,
+                  "end": 13.412,
+                  "confidence": 0.93
+                },
+                {
+                  "word": " voit",
+                  "start": 13.492,
+                  "end": 13.632000000000001,
+                  "confidence": 0.72
+                },
+                {
+                  "word": " ça",
+                  "start": 13.633000000000001,
+                  "end": 13.752,
+                  "confidence": 0.98
+                },
+                {
+                  "word": " juste",
+                  "start": 13.792000000000002,
+                  "end": 13.952000000000002,
+                  "confidence": 0.9
+                },
+                {
+                  "word": " après,",
+                  "start": 13.992,
+                  "end": 14.173000000000002,
+                  "confidence": 0.99
+                }
+              ],
+              "text": "on voit ça juste après,",
+              "language": "en",
+              "start": 13.292000000000002,
+              "end": 14.173000000000002,
+              "channel": 0,
+              "confidence": 0.9039999999999999
+            },
+            {
+              "words": [
+                {
+                  "word": " ok?",
+                  "start": 14.293000000000001,
+                  "end": 14.413,
+                  "confidence": 0.89
+                }
+              ],
+              "text": "ok?",
+              "language": "en",
+              "start": 14.293000000000001,
+              "end": 14.413,
+              "channel": 0,
+              "confidence": 0.89
+            },
+            {
+              "words": [
+                {
+                  "word": " Merci.",
+                  "start": 14.933000000000002,
+                  "end": 15.154000000000002,
+                  "confidence": 0.69
+                }
+              ],
+              "text": "Merci.",
+              "language": "en",
+              "start": 14.933000000000002,
+              "end": 15.154000000000002,
+              "channel": 0,
+              "confidence": 0.69
+            },
+            {
+              "words": [
+                {
+                  "word": " I",
+                  "start": 15.514000000000001,
+                  "end": 15.634,
+                  "confidence": 0.03
+                },
+                {
+                  "word": " am",
+                  "start": 15.635000000000002,
+                  "end": 15.734000000000002,
+                  "confidence": 0.88
+                },
+                {
+                  "word": " switching",
+                  "start": 15.774000000000001,
+                  "end": 16.094,
+                  "confidence": 0.84
+                },
+                {
+                  "word": " back",
+                  "start": 16.134,
+                  "end": 16.275,
+                  "confidence": 0.92
+                },
+                {
+                  "word": " to",
+                  "start": 16.295,
+                  "end": 16.415,
+                  "confidence": 0.93
+                },
+                {
+                  "word": " English",
+                  "start": 16.455000000000002,
+                  "end": 16.695,
+                  "confidence": 0.85
+                },
+                {
+                  "word": " but",
+                  "start": 16.755000000000003,
+                  "end": 16.875,
+                  "confidence": 0.65
+                },
+                {
+                  "word": " what",
+                  "start": 16.955000000000002,
+                  "end": 17.095000000000002,
+                  "confidence": 0.3
+                },
+                {
+                  "word": " happens",
+                  "start": 17.115000000000002,
+                  "end": 17.476000000000003,
+                  "confidence": 0.55
+                },
+                {
+                  "word": " to",
+                  "start": 17.477,
+                  "end": 17.556,
+                  "confidence": 0.98
+                },
+                {
+                  "word": " the",
+                  "start": 17.557000000000002,
+                  "end": 17.676000000000002,
+                  "confidence": 0.52
+                },
+                {
+                  "word": " transcript,",
+                  "start": 17.716,
+                  "end": 18.136,
+                  "confidence": 0.96
+                }
+              ],
+              "text": "I am switching back to English but what happens to the transcript,",
+              "language": "en",
+              "start": 15.514000000000001,
+              "end": 18.136,
+              "channel": 0,
+              "confidence": 0.7008333333333333
+            },
+            {
+              "words": [
+                {
+                  "word": " to",
+                  "start": 18.256,
+                  "end": 18.377000000000002,
+                  "confidence": 0.99
+                },
+                {
+                  "word": " the",
+                  "start": 18.378,
+                  "end": 18.497,
+                  "confidence": 0.51
+                },
+                {
+                  "word": " translation",
+                  "start": 18.537000000000003,
+                  "end": 19.057000000000002,
+                  "confidence": 0.88
+                },
+                {
+                  "word": " if",
+                  "start": 19.237000000000002,
+                  "end": 19.357,
+                  "confidence": 0.99
+                },
+                {
+                  "word": " you",
+                  "start": 19.397000000000002,
+                  "end": 19.518,
+                  "confidence": 0.82
+                },
+                {
+                  "word": " don't",
+                  "start": 19.578,
+                  "end": 19.778000000000002,
+                  "confidence": 0.76
+                },
+                {
+                  "word": " enable",
+                  "start": 19.858,
+                  "end": 20.258000000000003,
+                  "confidence": 0.55
+                },
+                {
+                  "word": " code",
+                  "start": 20.378,
+                  "end": 20.539,
+                  "confidence": 0.36
+                },
+                {
+                  "word": " switching?",
+                  "start": 20.559,
+                  "end": 20.959,
+                  "confidence": 0.82
+                }
+              ],
+              "text": "to the translation if you don't enable code switching?",
+              "language": "en",
+              "start": 18.256,
+              "end": 20.959,
+              "channel": 0,
+              "confidence": 0.7422222222222222
+            },
+            {
+              "words": [
+                {
+                  "word": " Let's",
+                  "start": 22.055,
+                  "end": 22.215,
+                  "confidence": 0.72
+                },
+                {
+                  "word": " take",
+                  "start": 22.236,
+                  "end": 22.416,
+                  "confidence": 0.4
+                },
+                {
+                  "word": " a",
+                  "start": 22.416999999999998,
+                  "end": 22.476,
+                  "confidence": 0.12
+                },
+                {
+                  "word": " look.",
+                  "start": 22.496,
+                  "end": 22.656,
+                  "confidence": 0.72
+                }
+              ],
+              "text": "Let's take a look.",
+              "language": "en",
+              "start": 22.055,
+              "end": 22.656,
+              "channel": 0,
+              "confidence": 0.49
+            }
+          ],
+          "error": null
+        }
+      ],
+      "exec_time": 0.008876147001981735,
+      "error": null
+    }
+  }
+}

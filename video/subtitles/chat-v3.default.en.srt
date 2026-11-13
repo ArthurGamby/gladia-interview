@@ -1,0 +1,41 @@
+1
+00:00:00.020 --> 00:00:02.603
+So I'm speaking in English, I
+am in a meeting and suddenly
+
+2
+00:00:02.843 --> 00:00:05.866
+one of my friends, one of my
+colleagues from France, Paul, is
+
+3
+00:00:06.026 --> 00:00:08.248
+asking me something really
+important that I need to answer.
+
+4
+00:00:09.428 --> 00:00:10.870
+Ah, merci Paul pour les croissants.
+
+5
+00:00:10.910 --> 00:00:14.413
+Par contre, pour le rapport, là je suis
+en meeting, on voit ça juste après, ok?
+
+6
+00:00:14.933 --> 00:00:15.514
+Merci.
+
+7
+00:00:15.514 --> 00:00:18.136
+I am switching back to English but
+what happens to the transcript,
+
+8
+00:00:18.256 --> 00:00:20.959
+to the translation if you
+don't enable code switching?
+
+9
+00:00:22.055 --> 00:00:22.755
+Let's take a look.

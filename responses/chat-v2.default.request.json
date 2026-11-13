@@ -1,0 +1,10 @@
+{
+  "audio_url": "https://api.gladia.io/file/28743471-00c8-4a90-807b-86330173faf2",
+  "translation": true,
+  "translation_config": {
+    "target_languages": [
+      "en"
+    ],
+    "model": "base"
+  }
+}
