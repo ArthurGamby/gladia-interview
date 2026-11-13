@@ -737,6 +737,7 @@ responses are under [Before / after](#before--after).
 | [`compare.py`](compare.py) | The script behind the before / after comparison |
 | [`audio/chat-v3.wav`](audio/chat-v3.wav) | The clip from the video (19 s) |
 | [`responses/`](responses/) | Raw requests and responses of both jobs |
-| [`WALKTHROUGH.md`](WALKTHROUGH.md) | The demo, written as a video script |
+| [`assets/code-switching.mp4`](assets/code-switching.mp4) | The animation at the top, as a silent 1080p MP4 for X or LinkedIn |
+| [`WALKTHROUGH.md`](WALKTHROUGH.md) | The 50-second video, shot by shot |
 | [`FEEDBACK.md`](FEEDBACK.md) | For the Gladia team: what I observed, doc gaps, two API ideas |
 | [`devrel-plan/PLAN.md`](devrel-plan/PLAN.md) | Part 2 of the case study: my first 90 days as Gladia's first DevRel |
