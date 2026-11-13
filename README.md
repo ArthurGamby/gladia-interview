@@ -197,7 +197,6 @@ With `code_switching`:
 | --- | --- |
 | [`compare.py`](compare.py) | The test: upload, two jobs, polling, report |
 | [`audio/chat-v3.wav`](audio/chat-v3.wav) | The clip from the video (23 s) |
-| [`responses/`](responses/) | Raw requests and responses of every run |
+| [`responses/`](responses/) | Raw requests and responses of both jobs |
 | [`WALKTHROUGH.md`](WALKTHROUGH.md) | The demo, written as a video script |
-| [`video/animation/`](video/animation/) | The animation above, as code (Remotion): `./make.sh` rebuilds the GIF and the MP4 |
 | [`FEEDBACK.md`](FEEDBACK.md) | For the Gladia team: what code-switching still gets wrong, doc gaps, API ideas |

@@ -17,7 +17,7 @@ API, Solaria-1, three recordings of my own voice. Docs checked on 2026-11-12.
 
 ### Without code-switching, speech can disappear
 
-Recording: [`audio/call-take2.aifc`](audio/call-take2.aifc), 38.8 s. I talk in
+Recording: an earlier 38.8 s take (not in the repo, raw responses on request). I talk in
 French to a colleague, in English to a client, then French and English again.
 With no `language_config`, the file is detected as French, and everything I said
 in English to the client, from 5.7 s to 17.3 s, is missing from the transcript.
@@ -39,7 +39,7 @@ confidence:
 The last English sentences came back in French ("He's on it" became "il est sur
 le point"), and the English translation built from them reads fluently: nobody
 who has not heard the audio would doubt it. With `code_switching: true`, the
-English is back. Both responses are in [`responses/`](responses/).
+English is back.
 
 ### What code-switching still gets wrong
 
@@ -54,7 +54,7 @@ English is back. Both responses are in [`responses/`](responses/).
 - **Utterance `confidence` is not a language confidence.** Those two wrong labels
   scored 0.35 and 0.68, so it is only a weak hint.
 - **Short accented phrases at the start of a file are fragile.** In my first take
-  ([`audio/call-take1.wav`](audio/call-take1.wav)), the four opening English
+  the four opening English
   sentences were detected as French and rendered in bad French ("we shipped the
   fix" became "Nous avons acheté ce…"). The opening sent alone was detected
   correctly, and so was the full file with 2.5 s of silence added at the start.

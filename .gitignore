@@ -1,20 +1,19 @@
+# Only what the demo needs is shared; everything else stays local.
+/*
+!/.gitignore
+!/.env.example
+!/README.md
+!/WALKTHROUGH.md
+!/FEEDBACK.md
+!/compare.py
+!/assets/
+!/audio/
+!/responses/
+
+/audio/*
+!/audio/chat-v3.wav
+/responses/*
+!/responses/chat-v3.*.json
+
 .env
-.venv/
-__pycache__/
 .DS_Store
-
-# Synthetic placeholder (macOS voices), for local tests only
-audio/call-tts.m4a
-.ruff_cache/
-
-# Raw footage and editing projects stay local (too big for git); the final video is on YouTube
-video/*
-!video/animation/
-!video/subtitles/
-video/animation/node_modules/
-video/animation/out/
-
-# Duplicates and recordings not used by the docs
-audio/call.aifc
-audio/chat-v2.wav
-audio/comment-v1.wav
